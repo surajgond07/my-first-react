@@ -1,35 +1,44 @@
+
 import { useState, version } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+
+
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
   return (
     <>
+   
+      <NetflixSeries />
+      <NetflixSeries />
+   
+    </>
+       
+  )
+}
+export default App
+
+
+const NetflixSeries = () => {
+  return(
+    <>
+
+      {/* <h1>Vite + React {version}</h1> */}
       <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        <img src="qot.jpg" alt="Queen Of Tears" width={"40%"} height={"40%"} />
       </div>
-      <h1>Vite + React {version}</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+      <h2>Name: Queen of Tears</h2>
+      <h3>Rating:8.2</h3>
+      <p>
+        Sammary: The queen of department stores and the prince of supermarkets weather a marital crisis, until love miraculously begins to bloom again.
       </p>
+
     </>
   )
 }
 
-export default App
+
+
