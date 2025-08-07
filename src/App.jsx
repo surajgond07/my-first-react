@@ -19,10 +19,20 @@ function App() {
        
   )
 }
+
+
+
+const  returnGenere =() => {
+const genere = " RomPOm";
+return genere;
+}
 export default App
 
 
 const NetflixSeries = () => {
+  const name = "Queen of Tears";
+  const rating = 8.2;
+  const summary = "The queen of department stores and the prince of supermarkets weather a marital crisis, until love miraculously begins to bloom again."
   return(
     <>
 
@@ -30,11 +40,11 @@ const NetflixSeries = () => {
       <div>
         <img src="qot.jpg" alt="Queen Of Tears" width={"40%"} height={"40%"} />
       </div>
-      <h2>Name: Queen of Tears</h2>
-      <h3>Rating:8.2</h3>
-      <p>
-        Sammary: The queen of department stores and the prince of supermarkets weather a marital crisis, until love miraculously begins to bloom again.
-      </p>
+      <h2>Name:{name} </h2>
+      <h3>Rating:{15/3.2}</h3>
+      <p>Sammary: {summary}</p>
+      <p>Genere:{returnGenere()}</p>
+  
 
     </>
   )
