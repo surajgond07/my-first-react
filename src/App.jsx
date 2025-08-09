@@ -21,11 +21,23 @@ function App() {
 }
 
 
+ let age = 19;
+
+//  let canWatch = "Not Available";
+//  if(age >= 18) canWatch = "Watch Now";
+
+
+const canWatch = () =>{
+  if(age >= 18) return "Watch Now";
+  return "Not Available";
+}
+
 
 const  returnGenere =() => {
 const genere = " RomPOm";
 return genere;
 }
+
 export default App
 
 
@@ -44,11 +56,12 @@ const NetflixSeries = () => {
       <h3>Rating:{15/3.2}</h3>
       <p>Sammary: {summary}</p>
       <p>Genere:{returnGenere()}</p>
-  
+
+      {/* <button>{age >= 18 ? "Watch Now": "Not Available"}</button> */}
+  <button>{canWatch()}</button>
 
     </>
   )
 }
-
 
 
