@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Queen of Tears",
+    "image_url": "/images/qot.jpg",
+    "rating": 9.1,
+    "description": "A married couple fights to protect their love amid life's storms in this emotional rollercoaster.",
+    "cast": ["Kim Soo-hyun", "Kim Ji-won"],
+    "genre": ["Romance", "Drama"],
+    "watch_url": "https://www.netflix.com/title/81473290"
+  },
+  {
+    "id": 2,
+    "name": "Stranger Things",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/f/f7/Stranger_Things_logo.png",
+    "rating": 8.7,
+    "description": "A group of young friends witnesses supernatural forces and secret government exploits in their small town.",
+    "cast": ["Millie Bobby Brown", "Finn Wolfhard"],
+    "genre": ["Sci-Fi", "Thriller"],
+    "watch_url": "https://www.netflix.com/title/80057281"
+  },
+  {
+    "id": 3,
+    "name": "The Crown",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/4/4f/The_Crown_season_4.jpg",
+    "rating": 8.6,
+    "description": "A dramatized history of the reign of Queen Elizabeth II, exploring political rivalries and personal affairs.",
+    "cast": ["Olivia Colman", "Tobias Menzies"],
+    "genre": ["Drama", "History"],
+    "watch_url": "https://www.netflix.com/title/80025678"
+  }
+]
