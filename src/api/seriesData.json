@@ -12,21 +12,71 @@
   {
     "id": 2,
     "name": "Stranger Things",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/f/f7/Stranger_Things_logo.png",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Stranger_Things_logo.png",
     "rating": 8.7,
     "description": "A group of young friends witnesses supernatural forces and secret government exploits in their small town.",
-    "cast": ["Millie Bobby Brown", "Finn Wolfhard"],
+    "cast": ["Millie Bobby Brown", "Finn Wolfhard", "David Harbour"],
     "genre": ["Sci-Fi", "Thriller"],
     "watch_url": "https://www.netflix.com/title/80057281"
   },
   {
     "id": 3,
     "name": "The Crown",
-    "image_url": "https://upload.wikimedia.org/wikipedia/en/4/4f/The_Crown_season_4.jpg",
+    "image_url": "https://rumblevfx.com/wp-content/uploads/2020/11/tc04_poster_003.jpg",
     "rating": 8.6,
     "description": "A dramatized history of the reign of Queen Elizabeth II, exploring political rivalries and personal affairs.",
-    "cast": ["Olivia Colman", "Tobias Menzies"],
+    "cast": ["Olivia Colman", "Tobias Menzies", "Helena Bonham Carter"],
     "genre": ["Drama", "History"],
     "watch_url": "https://www.netflix.com/title/80025678"
+  },
+  {
+    "id": 4,
+    "name": "Money Heist",
+    "image_url": "https://cdna.artstation.com/p/assets/images/images/046/103/336/large/illusion-design-money-heist-poster-min.jpg?1644314844",
+    "rating": 8.5,
+    "description": "A group of robbers led by 'The Professor' carry out the biggest heist in history, targeting the Royal Mint of Spain.",
+    "cast": ["Álvaro Morte", "Úrsula Corberó", "Itziar Ituño"],
+    "genre": ["Crime", "Thriller"],
+    "watch_url": "https://www.netflix.com/title/80192098"
+  },
+  {
+    "id": 5,
+    "name": "Dark",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/d/da/DarkNetflixPosterEnglish.jpg",
+    "rating": 8.8,
+    "description": "A German sci-fi thriller where the disappearance of children exposes the dark secrets of four families across time.",
+    "cast": ["Louis Hofmann", "Lisa Vicari", "Andreas Pietschmann"],
+    "genre": ["Sci-Fi", "Mystery"],
+    "watch_url": "https://www.netflix.com/title/80100172"
+  },
+  {
+    "id": 6,
+    "name": "Squid Game",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Squid_Game_2021_vector_logo.svg/960px-Squid_Game_2021_vector_logo.svg.png",
+    "rating": 8.0,
+    "description": "Hundreds of cash-strapped players accept a strange invitation to compete in children's games with deadly stakes.",
+    "cast": ["Lee Jung-jae", "Park Hae-soo", "Jung Ho-yeon"],
+    "genre": ["Thriller", "Drama"],
+    "watch_url": "https://www.netflix.com/title/81040344"
+  },
+  {
+    "id": 7,
+    "name": "Wednesday",
+    "image_url": "https://upload.wikimedia.org/wikipedia/he/6/66/Wednesday_Netflix_series_poster.png",
+    "rating": 8.1,
+    "description": "Wednesday Addams navigates life at Nevermore Academy while investigating a monstrous mystery.",
+    "cast": ["Jenna Ortega", "Catherine Zeta-Jones", "Luis Guzmán"],
+    "genre": ["Mystery", "Comedy", "Fantasy"],
+    "watch_url": "https://www.netflix.com/title/81231974"
+  },
+  {
+    "id": 8,
+    "name": "Bridgerton",
+    "image_url": "https://www.penchalet.com/blog/wp-content/uploads/2024/05/Bridgerton-movie-poster-copy-768x960.jpg",
+    "rating": 7.4,
+    "description": "Set in Regency-era London, the Bridgerton family navigates love, scandal, and society's expectations.",
+    "cast": ["Phoebe Dynevor", "Regé-Jean Page", "Jonathan Bailey"],
+    "genre": ["Romance", "Drama"],
+    "watch_url": "https://www.netflix.com/title/80232398"
   }
 ]
