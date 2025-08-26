@@ -15,8 +15,8 @@ export function Footer() {
 }
 
 const NetflixSeries = () => {
-  const age = 19;
-  const canWatch = () => (age >= 18 ? "Watch Now" : "Not Available");
+  // const age = 19;
+  // const canWatch = () => (age >= 18 ? "Watch Now" : "Not Available");
 
   return (
     <article className="card">
@@ -25,7 +25,7 @@ const NetflixSeries = () => {
           <SeriesCard 
             key={curElem.id} 
             curElem={curElem} 
-            canWatch={canWatch}   // ✅ pass canWatch as prop
+            // canWatch={canWatch}   // ✅ pass canWatch as prop
           />
         ))}
       </ul>

@@ -1,5 +1,6 @@
-export const SeriesCard = ({ curElem, canWatch }) => {
+export const SeriesCard = ({curElem}) => {
   const { image_url, name, rating, description, genre, cast, watch_url } = curElem;
+  console.log(curElem);
 
   return (
     <li>
@@ -12,8 +13,14 @@ export const SeriesCard = ({ curElem, canWatch }) => {
       <p>Genre: {genre.join(", ")}</p>
       <p>Cast: {cast.join(", ")}</p>
       <a href={watch_url} target="_blank" rel="noreferrer">
-        <button>{canWatch()}</button>
+        <button>Watch Now</button>
       </a>
     </li>
   );
 };
+
+
+
+
+
+
