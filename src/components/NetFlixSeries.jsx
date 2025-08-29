@@ -20,7 +20,7 @@ const NetflixSeries = () => {
 
   return (
     <article className="card">
-      <ul>
+      <ul className='grid grid__three--cols'>
         {SeriesData.map((curElem) => (
           <SeriesCard 
             key={curElem.id} 
@@ -34,3 +34,6 @@ const NetflixSeries = () => {
 };
 
 export default NetflixSeries;
+
+
+
