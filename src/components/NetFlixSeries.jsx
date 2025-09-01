@@ -1,11 +1,12 @@
 import React from 'react';
 import SeriesData from '../api/seriesData.json';
 import { SeriesCard } from './SeriesCard';
+import './Netflix.css';
 
 export function Header() {
   return (
     <header>
-      <h1>🎬 Netflix Series</h1>
+      <h1 className="card__heading">🎬 Netflix Series</h1>
     </header>
   );
 }
@@ -20,7 +21,7 @@ const NetflixSeries = () => {
 
   return (
     <article className="card">
-      <ul className='grid grid__three--cols'>
+      <ul className='grid grid__three-cols'>
         {SeriesData.map((curElem) => (
           <SeriesCard 
             key={curElem.id} 
