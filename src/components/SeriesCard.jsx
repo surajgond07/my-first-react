@@ -3,10 +3,12 @@ export const SeriesCard = ({curElem}) => {
   console.log(curElem);
 
   return (
-    <li>
+    <li className="card">
       <div>
-        <img src={image_url} alt={name} style={{ width: "40%" }} />
+        <img src={image_url} alt={name}  />
       </div>
+
+      <div className="card__content">
       <h2>Name: {name}</h2>
       <h3>Rating: {rating}</h3>
       <p>Summary: {description}</p>
@@ -15,6 +17,7 @@ export const SeriesCard = ({curElem}) => {
       <a href={watch_url} target="_blank" rel="noreferrer">
         <button>Watch Now</button>
       </a>
+      </div>
     </li>
   );
 };
