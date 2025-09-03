@@ -1,70 +1,91 @@
-.card-container {
-  margin-top: 3rem;
+/* Global background (like Netflix) */
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #141414; /* Dark Netflix-like background */
+  color: #fff;
 }
 
+/* Grid background */
+.grid {
+  background: #141414;
+  display: grid;
+  gap: 9.6rem;
+  padding: 2rem;
+}
+
+/* Card styling */
 .card {
-  text-align: center;
-  background: #ffffff;
+  background: #1c1c1c; /* Dark gray for cards */
+  color: #fff; /* Light text */
+  text-align: left;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px, rgba(0, 0, 0, 0.08) 0px 0px 1px;
-}
-.card {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 .card:hover {
-  /* transform: scale(1.05); */
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  transform: translateY(-6px);
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.8);
 }
 
-img {
+/* Images */
+.card img {
   width: 100%;
   height: 240px;
   object-fit: cover;
-  border-radius: 8px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 2px solid #222;
 }
 
+/* Card content */
 .card__content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
   padding: 1.5rem;
 }
+
+.card__content a {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.card__content h2,
+.card__content h3 {
+  color: #fff;
+}
+
+p {
+  color: #b3b3b3; /* Netflix gray for text */
+}
+
+/* Netflix Heading */
 .card__heading {
   font-size: 3rem;
-  color: var(--h-color);
-  margin-bottom: 3.2rem;
-
   font-weight: 800;
   color: #e50914;
   text-transform: uppercase;
   letter-spacing: 2px;
+  margin-bottom: 3.2rem;
 }
 
+/* Button */
 button {
   background-color: #e50914;
   color: #fff;
   border: none;
   border-radius: 6px;
-  padding: 0.8rem 2rem;
+  padding: 1.2rem 4rem;
   font-weight: 600;
   cursor: pointer;
   transition: background 0.3s;
+  border-radius: 20px;
 }
+
 button:hover {
   background-color: #f40612;
-}
-
-/* Responsive */
-/* Tablet and up */
-@media (min-width: 768px) {
-  .card__heading {
-    font-size: 3.5rem;
-  }
-}
-
-/* Desktop and up */
-@media (min-width: 1024px) {
-  .card__heading {
-    font-size: 4rem;
-    margin-bottom: 5rem;
-  }
 }

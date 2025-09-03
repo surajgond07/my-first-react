@@ -9,11 +9,11 @@ export const SeriesCard = ({curElem}) => {
       </div>
 
       <div className="card__content">
-      <h2>Name: {name}</h2>
-      <h3>Rating: {rating}</h3>
-      <p>Summary: {description}</p>
-      <p>Genre: {genre.join(", ")}</p>
-      <p>Cast: {cast.join(", ")}</p>
+      <h2><strong>Name:</strong> {name}</h2>
+      <h3><strong>Rating:</strong> {rating}</h3>
+      <p><strong>Summary:</strong> {description}</p>
+      <p><strong>Genre:</strong> {genre.join(", ")}</p>
+      <p><strong>Cast:</strong> {cast.join(", ")}</p>
       <a href={watch_url} target="_blank" rel="noreferrer">
         <button>Watch Now</button>
       </a>
