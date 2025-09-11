@@ -89,3 +89,16 @@ button {
 button:hover {
   background-color: #f40612;
 }
+
+.rating {
+  padding: 0.3rem 1.8rem;
+  border-radius: 100rem;
+  margin-left: 1.2rem;
+}
+
+.super-hit {
+  background-color: #7dcea0;
+}
+.average {
+  background-color: #f7dc6f;
+}
