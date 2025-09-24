@@ -1,3 +1,7 @@
+import './Netflix.module.css';
+
+
+
 export const SeriesCard = ({curElem}) => {
   const { image_url, name, rating, description, genre, cast, watch_url } = curElem;
   console.log(curElem);

@@ -2,7 +2,8 @@
 import React from 'react';
 import './App.css';
 import NetflixSeries, { Header, Footer } from './components/NetFlixSeries';
-import "./components/Netflix.css";
+// import "./components/Netflix.css";
+import'./components/Netflix.module.css';
 
 export default function App() {
   return (
