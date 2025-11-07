@@ -49,7 +49,10 @@ export const SeriesCard = ({curElem}) => {
         <img src={image_url} alt={name}  />
       </div>
 
-      <div className="card__content">
+      {/* <div className="card__content"> */}
+      {/* style from Tailwind CSS */}
+      <div className="flex flex-col py-[3.2rem] px-[1.2rem]">
+      {/* <div classname=""> */}
       <h2><strong>Name:</strong> {name}</h2>
       <h3><strong>Rating: <span className={`rating ${ratingClass}`}> {rating}</span></strong></h3>
       <p><strong>Summary:</strong> {description}</p>
