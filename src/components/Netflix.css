@@ -42,12 +42,12 @@ body {
 }
 
 /* Card content */
-/* .card__content {
+.card__content {
   display: flex;
   flex-direction: column;
   gap: 0.1rem;
   padding: 1.5rem;
-} */
+}
 
 .card__content a {
   text-align: center;
