@@ -4,7 +4,8 @@ import './App.css';
 import NetflixSeries, { Header, Footer } from './components/NetFlixSeries';
 // import "./components/Netflix.css";
 import'./components/Netflix.module.css';
-import { Eventhandling } from './components/Eventhandlin';
+// import { Eventhandling } from './components/Eventhandlin';
+import{EventProps} from './components/EventProps';
 
 export default function App() {
   return (
@@ -17,7 +18,8 @@ export default function App() {
         <NetflixSeries />
    
       </main> */}
-        <Eventhandling/>
+        {/* <Eventhandling/> */}
+       <EventProps/>
       <Footer />
     </section>
     </>
