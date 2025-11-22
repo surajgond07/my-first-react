@@ -1,0 +1,38 @@
+/* Grand Parent Div (Outer Blue Box) */
+.g-div {
+  background: #88c7ed;
+  padding: 50px;
+  border: 8px solid #000;
+
+  /* Make horizontal */
+  width: 90%; /* wider */
+  height: 40vh; /* shorter */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Parent Div (Middle Green Box) */
+.p-div {
+  background: #77d9b0;
+  padding: 40px;
+  border: 8px solid #000;
+
+  /* Make horizontal */
+  width: 95%; /* wide */
+  height: 90%; /* short */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Child Button (Inner Yellow Box) */
+.c-div {
+  background: #f6de73;
+  padding: 25px 100px; /* wider */
+  border: 8px solid #000;
+  font-size: 20px;
+  cursor: pointer;
+}
