@@ -12,6 +12,9 @@
   justify-content: center;
   align-items: center;
 }
+h1 {
+  color: #ffffff;
+}
 
 /* Parent Div (Middle Green Box) */
 .p-div {
