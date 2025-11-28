@@ -1,4 +1,10 @@
 /* Grand Parent Div (Outer Blue Box) */
+
+.main-div {
+  text-align: center;
+  margin-top: 20px;
+  color: #ffffff;
+}
 .g-div {
   background: #88c7ed;
   padding: 50px;
