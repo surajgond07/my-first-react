@@ -5,7 +5,8 @@ import NetflixSeries, { Header, Footer } from './components/NetFlixSeries';
 // import "./components/Netflix.css";
 import'./components/Netflix.module.css';
 import {State} from "./components/hooks/State";
-
+import {DerivedState} from "./components/DericedState";
+ 
 export default function App() {
   return (
     <>
@@ -19,7 +20,8 @@ export default function App() {
       </main> */}
         {/* <Eventhandling/> */}
        {/* <EventProps/> */}
-       <State />
+       {/* <State /> */}
+       <DerivedState />
    
        
  
