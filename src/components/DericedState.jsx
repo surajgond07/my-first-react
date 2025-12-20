@@ -8,6 +8,12 @@ export const DerivedState = ()=>{
         {name: "Angles", age: 45},
     ]);
 
+    console.log(users);
+    const userCount = users.length;
+    console.log("Total Users:", userCount);
+    const averageAge = users.reduce((acc, curElem) => acc + curElem.age, 0) / userCount;;
+
+
     return(
         <div className="main-div">
             <h1>User List</h1>
@@ -20,6 +26,8 @@ export const DerivedState = ()=>{
                     )
                 })}
             </ul>
+            <p>Total Users: {userCount}</p>
+            <p>Average Age: {averageAge}</p> 
 
         </div>
     )
