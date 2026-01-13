@@ -1,12 +1,44 @@
-# React + Vite
+# My First React Project 🚀 (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains my **first React project**, created while learning React from  
+**Thapa Technical – React Tutorial in Hindi (2024)**.
 
-Currently, two official plugins are available:
+The project is built using **React + Vite** for fast development and modern tooling.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📚 What I Am Learning
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Through this project, I am practicing and understanding:
+
+- React Components
+- JSX fundamentals
+- `useState` Hook
+- Props & component communication
+- Lifting State Up
+- Controlled Inputs
+- Mini projects like Toggle Switch
+- React best practices for beginners
+
+This repository represents my **learning journey**, not a production-ready application.
+
+---
+
+## 🛠 Tech Stack
+
+- **React**
+- **Vite**
+- **JavaScript (ES6+)**
+- **HTML5**
+- **CSS3**
+
+---
+
+## ⚡ Getting Started
+
+Clone the repository and run it locally:
+
+```bash
+npm install
+npm run dev
+```
