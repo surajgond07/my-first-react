@@ -29,3 +29,12 @@ const InputComponent = ({inputValue, setInputValue}) =>{
 const DisplayComponent = ({inputValue}) =>{
     return <p>The current input value is: {inputValue}</p>
 }
+
+
+
+
+
+
+
+
+

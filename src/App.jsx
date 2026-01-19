@@ -1,36 +1,15 @@
 // src/App.jsx
-import React from 'react';
-import './App.css';
-import NetflixSeries, { Header, Footer } from './components/NetFlixSeries';
-// import "./components/Netflix.css";
-import'./components/Netflix.module.css';
-import {State} from "./components/hooks/State";
-// import {DerivedState} from "./components/DericedState";
+// import React from 'react';
+// import './App.css';
 
-import {LiftingState} from "./components/LiftStateUp";
+import'./components/Netflix.module.css';
+
+import { ToggleSwitch } from './Projects/ToggleSwitch/ToggleSwitch';
  
 export default function App() {
   return (
     <>
-    <section className="container">
-
-      {/* <Header />
-   
-      <main>
-        <NetflixSeries />
-   
-      </main> */}
-        {/* <Eventhandling/> */}
-       {/* <EventProps/> */}
-       {/* <State /> */}
-       {/* <DerivedState /> */}
-
-       <LiftingState />
-   
-       
- 
-      <Footer />
-    </section>
+       <ToggleSwitch />
     </>
   );
 };
