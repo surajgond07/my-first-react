@@ -46,7 +46,7 @@ body {
 }
 .on {
   background: #4caf50;
-  transform: translateX(50px);
+  transform: translateX(100px);
 }
 .off {
   background: #f44336;
