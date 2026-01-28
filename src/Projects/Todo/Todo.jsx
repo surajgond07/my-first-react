@@ -1,6 +1,12 @@
+import { useState } from "react";
 import "./Todo.css";
 
 export const Todo = () => {
+  const[inputValue, setInputValue] = useState("");
+
+  const handleInputChange = (value) =>{
+setInputValue(value);
+  }
   return (
     <section className="todo-container">
       <header>
@@ -14,6 +20,8 @@ export const Todo = () => {
             className="todo-input"
             autoComplete="off"
             placeholder="Add a task..."
+            value = {inputValue}
+            onChange= {(Event) => handleInputChange(Event.target.value)}
           />
 
           <button type="submit" className="todo-button">
